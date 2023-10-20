@@ -1,0 +1,89 @@
+=======================================  Assignments  ===================================================================================
+
+
+1.	 What are the advantages of using Git?
+Ans      Here are some of the advantages of using Git:
+         1) Free and open-source: Git is free to use and distribute, and its source code is open for anyone to inspect. This makes it a good choice for projects of all sizes and budgets.
+         2) Distributed: Git stores a complete copy of the codebase on each developer's machine. This means that developers can work on the project without having to be connected to a central server, and it makes the codebase more resilient to failure.
+         3) Branching and merging: Git makes it easy to create and merge branches, which allows developers to work on different features or bug fixes without affecting the main codebase. This can help to improve the quality and efficiency of the development process.
+         4) Version tracking: Git keeps a complete history of all changes to the codebase. This allows developers to roll back to previous versions if necessary, and it can also be used to generate detailed reports on the development process.
+         5) Collaboration: Git makes it easy for developers to collaborate on projects. Developers can share their branches with each other and review each other's code before merging it into the main codebase.
+
+        --------------------------------------------------------------------------------------------------------------
+
+2.	 Name a few Git commands with their function.
+Ans      Here are a few Git commands with their function:
+         1) git init: Initializes a new Git repository.
+         2) git clone: Clones an existing Git repository.
+	 3) git add: Adds files to the staging area.
+	 4) git commit: Commits the changes in the staging area to the local repository.
+	 5) git push: Pushes the local commits to the remote repository.
+	 6) git pull: Pulls the remote commits to the local repository.
+ 	 7) git status: Shows the status of the working tree and the staging area.
+	 8) git log: Shows the history of commits.
+	 9) git checkout: Switches to a different branch or commit.
+	 10) git branch: Creates a new branch or lists the existing branches.
+	 11) git merge: Merges two branches.
+	 12) git diff: Shows the difference between two commits or files.
+
+        --------------------------------------------------------------------------------------------------------------
+
+3.	 What is a Git repository?
+Ans      A Git repository is a central storage location for managing and tracking changes in files and directories. It is a crucial component of the Git version control system, 
+         which enables collaborative development and allows multiple developers to work on a project simultaneously.
+
+        --------------------------------------------------------------------------------------------------------------
+
+4.	 What’s the difference between Git and GitHub?
+Ans      1) Git is a version control system, while GitHub is a web-based hosting service for Git repositories.
+         2) Git is used to track changes to a project over time and to collaborate with other developers. It stores a complete history of all changes to the project, and it makes it easy to create and merge branches.
+         3) GitHub is a platform for hosting and managing Git repositories. It provides a number of features that make it easy to collaborate on projects, such as code review, issue tracking, and pull requests.
+
+        --------------------------------------------------------------------------------------------------------------
+
+5.	 What does the git push command do?
+Ans      The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch, 
+         but whereas fetching imports commits to local branches, pushing exports commits to remote branches.
+
+        --------------------------------------------------------------------------------------------------------------
+
+6.	 Difference between git fetch and git pull
+Ans      The key difference between git fetch and pull is that git pull copies changes from a remote repository directly into your working directory, while git fetch does not. 
+         The git fetch command only copies changes into your local Git repo. The git pull command does both.
+
+        --------------------------------------------------------------------------------------------------------------
+
+7.	 What does git clone do?
+Ans      git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. 
+         The original repository can be located on the local filesystem or on remote machine accessible supported protocols.
+
+        --------------------------------------------------------------------------------------------------------------
+
+8.	 What do you understand about the Staging area in Git?
+Ans      the staging area is the middle ground between what you have done to your files (also known as the working directory) and what you had last committed (the HEAD commit). 
+
+        --------------------------------------------------------------------------------------------------------------
+
+9.	 What is the use of the git config command?
+Ans      The git config command is a convenience function that is used to set Git configuration values on a global or local project level. These configuration levels correspond to .gitconfig text files. Executing git config will modify a configuration text file.
+
+        --------------------------------------------------------------------------------------------------------------
+
+10.	 What is the difference between fork, branch, and clone?
+Ans      
+         Here is a table that summarizes the key differences between fork, branch, and clone in Git:
+
+ 		  *Feature*	                             Fork		Branch		Clone
+
+
+	1) Creates a copy of a repository		     Yes		Yes		Yes
+
+	2) Linked to the original repository	     No		Yes		No
+
+	3) Can have a different commit history 
+  	   from the original repository		     Yes		No		No
+
+	4) Can be used to contribute to the
+  	   original repository		           	     Yes		No		No
+
+        --------------------------------------------------------------------------------------------------------------
